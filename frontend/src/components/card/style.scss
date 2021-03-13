@@ -1,0 +1,48 @@
+.card {
+  position: relative;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: black;
+
+    .card-image {
+      opacity: 0.8;
+    }
+
+    .pin-btn {
+      opacity: 1;
+    }
+  }
+}
+
+.card-image {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.pin-btn {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #e60023;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity .35s ease;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.pin-btn:hover {
+  background-color: #ad081b;
+}
