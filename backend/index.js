@@ -1,7 +1,8 @@
+require('dotenv').config()
 const nodeFetch = require('node-fetch');
 const { createApi } = require('unsplash-js');
 const unsplash = createApi({
-    accessKey: 'ERToSvEm7ZJU4EVACldWzQi7BxTw1KkYb-f2PiVhN2I',
+    accessKey: process.env.UNSPLASH_KEY,
     fetch: nodeFetch
 });
 
