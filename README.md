@@ -1,4 +1,4 @@
-# bright_hometask
+# bright_task
 cd backend
 
 node index.js
