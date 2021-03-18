@@ -1,4 +1,4 @@
-# bright_task
+# unsplash img search
 cd backend
 
 node index.js
